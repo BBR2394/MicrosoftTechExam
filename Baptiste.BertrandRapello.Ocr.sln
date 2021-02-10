@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baptiste.BertrandRapello.Ocr", "Baptiste.BertrandRapello.Ocr\Baptiste.BertrandRapello.Ocr.csproj", "{92753ED9-2DD3-47D5-B78F-CAD7C178CC71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baptiste.BertrandRapello.Ocr.Tests", "tests\Baptiste.BertrandRapello.Ocr.Tests\Baptiste.BertrandRapello.Ocr.Tests.csproj", "{C0BD6CBD-0EDD-4768-8E3D-6210A75B5AD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92753ED9-2DD3-47D5-B78F-CAD7C178CC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92753ED9-2DD3-47D5-B78F-CAD7C178CC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92753ED9-2DD3-47D5-B78F-CAD7C178CC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92753ED9-2DD3-47D5-B78F-CAD7C178CC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0BD6CBD-0EDD-4768-8E3D-6210A75B5AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BD6CBD-0EDD-4768-8E3D-6210A75B5AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BD6CBD-0EDD-4768-8E3D-6210A75B5AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BD6CBD-0EDD-4768-8E3D-6210A75B5AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

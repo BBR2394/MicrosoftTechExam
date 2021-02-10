@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="leptonicaSharp" Version="1.77.0.1" />
+    <PackageReference Include="Tesseract" Version="4.1.1" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="ressources" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="ressources\fra.traineddata">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
